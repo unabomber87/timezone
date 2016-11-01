@@ -1,0 +1,13 @@
+{
+    "name": "unabomber/timezone",
+    "description": "package showing various timezones",
+    "type": "library",
+    "authors": [
+        {
+            "name": "unabomber87",
+            "email": "lahkimi.maziz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
