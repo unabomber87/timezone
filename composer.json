@@ -2,6 +2,7 @@
     "name": "unabomber/timezone",
     "description": "package showing various timezones",
     "type": "library",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "unabomber87",
@@ -10,9 +11,13 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.1"
+    },
     "autoload": {
         "psr-4": {
-              "Unabomber\\Timezone\\": "src/"
+          "Unabomber\\Timezone\\": "src/"
         }
     }
 }
