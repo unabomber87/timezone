@@ -11,6 +11,8 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {"Unabomber\\Timezone\\": ["src/"]}
-    },
+        "psr-4": {
+              "Unabomber\\Timezone\\": "src/"
+        }
+    }
 }
